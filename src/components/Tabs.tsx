@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Typography from "./Typography";
 import { FlexColumn, FlexRow } from "./commonStyles";
 import Icon from "../assets/icons";
+import { FaUserFriends } from "react-icons/fa";
 
 const Tab = styled.button<{ isActive: boolean }>`
   // border-radius: 8px;
@@ -54,7 +55,8 @@ const Tabs = ({
               horizontalalign="center"
               gap="10px"
             >
-              <Icon name="google" />
+              {/* <Icon name="google" /> */}
+              <FaUserFriends size={"25px"} />
               <Tab isActive={currentTab === id} onClick={() => onTabSelect(id)}>
                 <Typography
                   type="bodyBold"

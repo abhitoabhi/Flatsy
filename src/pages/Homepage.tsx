@@ -5,6 +5,7 @@ import Typography from "../components/Typography";
 import { FlexRow } from "../components/commonStyles";
 import LocationSearch from "../components/LocationSearch";
 import Icon from "../assets/icons";
+import { FaFilter, FaUserFriends } from "react-icons/fa";
 
 const Container = styled.div`
   //   background: red;
@@ -38,7 +39,7 @@ export default function HomePage() {
             <Typography type="small" color="#B7B9C3">
               Filter
             </Typography>
-            <Icon name="google" />
+            <FaFilter color="#B7B9C3" />
           </FilterContainer>
         </FlexRow>
       </FlexRow>

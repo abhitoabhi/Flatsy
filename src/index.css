@@ -19,3 +19,15 @@ p {
   margin: 0;
   padding: 0;
 }
+
+@layer base {
+  :root {
+    --card-shadow: 0 2px 8px hsl(220 15% 15% / 0.08);
+
+    --primary: #28bdbd;
+    --primary-foreground: #FFF;
+
+    --secondary: #eff5f5;
+    --secondary-foreground: 180 65% 25%;
+  }
+}
